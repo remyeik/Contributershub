@@ -7,6 +7,7 @@ body {
   }
   
   
+
   .container {
     margin: 0 auto;
     text-align: center;
@@ -14,7 +15,7 @@ body {
       width:75%;
   
   }
-  
+
   .flex-blackjack-row-1,
   .flex-blackjack-row-2,
   .flex-blackjack-row-3 {
@@ -23,6 +24,8 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+    border-radius: 10px;
+    margin-top: 10px;
   }
   
   .flex-blackjack-row-2 div {
@@ -45,7 +48,14 @@ body {
       width:45%;
       background-color: white;
       text-align: center;
+      border-radius: 10px;
   }
+
+  .result-box {
+    width: 23rem;
+    border-radius: 10px;
+  }
+
   table td {
       border: 2px solid black;
   }
@@ -59,7 +69,7 @@ body {
     margin-bottom: 10px;
   }
   
-  .flex-blackjack-row-2, .flex-blackjack-row-3{
+  .flex-blackjack-row-2 {
     background-image: url(https://i.stack.imgur.com/q02th.jpg);
     border: 3px solid black;
   }
